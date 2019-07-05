@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="UNLookup-Web.config Connection String" description="UNLookup Connection String used in web.config by the application to access the database." defaultValue="Data Source = POS-APPSVR01\SQL2K8R2_APPSVR1; Initial Catalog=UNLookup; MultipleActiveResultSets=True; Integrated Security=SSPI" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gabrielle\.marhue\\source\\repos\\UNLookup\\UNLookup\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UNLookup']/@connectionString" />
+  </parameter>
+</parameters>
